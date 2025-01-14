@@ -1,3 +1,4 @@
+/* 기본 레이아웃 */
 .App {
   font-family: Arial, sans-serif;
   display: flex;
@@ -8,8 +9,17 @@
   margin: 0;
 }
 
+/* 2열 그리드 */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2열 */
+  gap: 20px; /* 카드 간격 */
+}
+
+/* 상품 카드 */
 .product-card {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   background: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -17,12 +27,14 @@
   text-align: center;
 }
 
+/* 상품 이미지 */
 .product-image {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
+/* 상품 상세 정보 */
 .product-details {
   padding: 15px;
 }
@@ -39,6 +51,7 @@
   margin: 5px 0;
 }
 
+/* 구매 버튼 */
 .product-button {
   display: inline-block;
   margin-top: 15px;
