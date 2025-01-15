@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Inmeta/static/css/main.29abe0f7.css",
+    "main.js": "/Inmeta/static/js/main.ef1b8c8d.js",
+    "static/js/488.c1d7f7e1.chunk.js": "/Inmeta/static/js/488.c1d7f7e1.chunk.js",
+    "static/media/logo.svg": "/Inmeta/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Inmeta/index.html",
+    "main.29abe0f7.css.map": "/Inmeta/static/css/main.29abe0f7.css.map",
+    "main.ef1b8c8d.js.map": "/Inmeta/static/js/main.ef1b8c8d.js.map",
+    "488.c1d7f7e1.chunk.js.map": "/Inmeta/static/js/488.c1d7f7e1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.29abe0f7.css",
+    "static/js/main.ef1b8c8d.js"
+  ]
+}
